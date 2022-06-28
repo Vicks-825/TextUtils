@@ -58,7 +58,7 @@ export default function TextForm(props) {
     
     <div className='flex space-x-4 flex-col justify-center items-center p-5'>
         <h1 className='text-lg font-bold'>Paragraph Summery</h1>
-        <h2 className='text-sm'>{text.split(" ").length - 1} words</h2>
+        <h2 className='text-sm'>{text.split("/\s+/").filter((element) => {return element.length !== 0}).length} words</h2>
         <h2 className='text-sm'>{text.length} Characters</h2>
     </div>
     </div>
