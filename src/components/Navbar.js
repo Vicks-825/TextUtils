@@ -15,7 +15,7 @@ export default function Navbar(props) {
     backgroundColor: 'white'
   }
   let dark = {
-    backgroundColor: '#9d90b8'
+    backgroundColor: 'rgb(79 63 83)'
   }
   return (
     <div className="navbar flex justify-between p-4 w-full items-center" style={props.mode.color === "black"?lightMode:darkMode}>

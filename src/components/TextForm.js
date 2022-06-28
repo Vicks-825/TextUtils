@@ -25,8 +25,8 @@ export default function TextForm(props) {
     let light = {
         backgroundColor: 'white'
       }
-      let dark = {
-        backgroundColor: '#9d90b8'
+    let dark = {
+        backgroundColor: 'rgb(79 63 83)'
       }
 
     const [text, setText] = useState('Enter text here');
